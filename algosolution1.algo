@@ -1,4 +1,4 @@
-ALGORITHM htable
+ALGORITHM TAB
 VAR
     i,j,sum:INTEGER;
     arr1 : ARRAY_OF INTEGER[a1];
