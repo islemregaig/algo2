@@ -6,13 +6,13 @@ VAR
     sum:=0;
 BEGIN
     FOR i FROM 0 TO a1-1 STEP step  DO
-        IF (arr1[i] <> arr2[j) THEN
-        sum:= sum+arr1[i]
+        IF (arr1[i] === arr2[j]) THEN
+        sum:= sum+arr1[i]*2
         END_IF
     END_FOR
         FOR j FROM 0 TO a2-1 STEP step  DO
-        IF (arr2[j] <> arr1[i) THEN
-        sum:= sum+arr2[j]
+        IF (arr2[j] <> arr1[i]) THEN
+        sum:= sum+arr2[j]*2
         END_IF
     END_FOR
     read(sum)
